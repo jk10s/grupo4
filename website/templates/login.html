@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block title %}Login{% endblock %}
+{% block content %}
+<br>
+<form method="POST">
+
+    <h3> Inicia sesion</h1>    
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="enter Emal">
+    </div>
+    
+    <div class="form-group">
+        <label for="password1">password</label>
+        <input type="password1" class="form-control" id="password1" name="password1" placeholder="enter First Name">
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">iniciar sesion</button>
+</form>
+
+
+
+
+<!-- {{ text }}
+<br>
+<hr>
+{{ user }} -->
+{% endblock %}
